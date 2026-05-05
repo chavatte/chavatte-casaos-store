@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  sentinel-ops:
+    image: chavatte/sentinel-ops:latest
+    container_name: sentinel-ops
+    restart: unless-stopped
+    ports:
+      - "9393:8080"
+    environment:
+      - SCAN_INTERVAL=21600
+      - TZ=America/Sao_Paulo
+    volumes:
+      - /DATA/AppData/sentinel-ops/ssh:/ssh:ro
+      - /DATA/AppData/sentinel-ops/data:/data
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+    - arm
+  main: sentinel-ops
+  description:
+    en_us: "Advanced Threat Intelligence & Vulnerability Monitor for Node.js Ecosystems. Features an Executive SecOps Dashboard, SQLite Engine tracking MTTR, and Auto-Governance via Docker Hub."
+    pt_br: "Monitor de Ameaças e Vulnerabilidades Avançado. Inclui Dashboard Executivo, Banco de Dados SQLite para MTTR e Auto-Governança via Docker Hub."
+  tagline:
+    en_us: "SecOps Threat Intelligence"
+    pt_br: "Inteligência de Ameaças SecOps"
+  developer: "Chavatte Security"
+  author: "DevChavatte"
+  icon: "[https://raw.githubusercontent.com/chavatte/sentinel-ops/main/src/static/assets/favicon.png](https://raw.githubusercontent.com/chavatte/sentinel-ops/main/src/static/assets/favicon.png)"
+  thumbnail: "[https://raw.githubusercontent.com/chavatte/sentinel-ops/main/assets/logo.png](https://raw.githubusercontent.com/chavatte/sentinel-ops/main/assets/logo.png)"
+  title:
+    en_us: "Sentinel Ops"
+  category: "Security"
+  port_map: "9393"
+  index: "/"
