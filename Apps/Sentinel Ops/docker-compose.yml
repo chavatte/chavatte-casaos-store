@@ -20,15 +20,15 @@ x-casaos:
     - arm
   main: sentinel-ops
   description:
-    en_us: "Advanced Threat Intelligence & Vulnerability Monitor for Node.js Ecosystems. Features an Executive SecOps Dashboard, SQLite Engine tracking MTTR, and Auto-Governance via Docker Hub."
-    pt_br: "Monitor de Ameaças e Vulnerabilidades Avançado. Inclui Dashboard Executivo, Banco de Dados SQLite para MTTR e Auto-Governança via Docker Hub."
+    en_us: "🇺🇸 Advanced Threat Intelligence & Vulnerability Monitor for Node.js Ecosystems. Features an Executive SecOps Dashboard, SQLite Engine tracking MTTR, and Auto-Governance.\n\n🇧🇷 Monitor de Ameaças e Vulnerabilidades Avançado. Inclui Dashboard Executivo, Banco de Dados SQLite para MTTR e Auto-Governança."
+    pt_br: "🇺🇸 Advanced Threat Intelligence & Vulnerability Monitor for Node.js Ecosystems. Features an Executive SecOps Dashboard, SQLite Engine tracking MTTR, and Auto-Governance.\n\n🇧🇷 Monitor de Ameaças e Vulnerabilidades Avançado. Inclui Dashboard Executivo, Banco de Dados SQLite para MTTR e Auto-Governança."
   tagline:
-    en_us: "SecOps Threat Intelligence"
-    pt_br: "Inteligência de Ameaças SecOps"
+    en_us: "🇺🇸 SecOps Threat Intelligence | 🇧🇷 Inteligência de Ameaças"
+    pt_br: "🇺🇸 SecOps Threat Intelligence | 🇧🇷 Inteligência de Ameaças"
   developer: "Chavatte Security"
   author: "DevChavatte"
-  icon: "[https://raw.githubusercontent.com/chavatte/sentinel-ops/main/src/static/assets/favicon.png](https://raw.githubusercontent.com/chavatte/sentinel-ops/main/src/static/assets/favicon.png)"
-  thumbnail: "[https://raw.githubusercontent.com/chavatte/sentinel-ops/main/assets/logo.png](https://raw.githubusercontent.com/chavatte/sentinel-ops/main/assets/logo.png)"
+  icon: "https://github.com/chavatte/sentinel-ops/blob/main/assets/favicon.png"
+  thumbnail: "https://raw.githubusercontent.com/chavatte/sentinel-ops/main/assets/logo.png"
   title:
     en_us: "Sentinel Ops"
   category: "Security"
